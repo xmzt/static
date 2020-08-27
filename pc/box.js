@@ -37,7 +37,7 @@ function imgplus() {
 }
 
 !(function() {
-    var style = "<style>#siderbox{height:222px}.box .singleImage .feed__link{padding:0!important}.box .singleImage{background:#eee!important}#siderbox .singleImage{background:#fff!important}.box .singleImage__title{padding:10px 10px 0 10px!important;font-size:12px!important;font-family:Arial!important;font-weight:normal!important}.box .singleImage__desc,.box .img .adTag{display:none!important}#feed {margin: 10px}#feed .textual__title,#feed .adTag{display: inline-block;}#feed .textual__title{font-size: 14px;font-weight: bold;}#feed .textual__body a:hover{color: #ff0000}#feed .adTag{float: left;margin-right: 10px;padding: 1px 4px;border: 1px solid #999;border-radius: 3px;font-size: 11px;color: #999;opacity:0.3}<style>";
+    var style = "<style>#siderbox{height:222px}.box .singleImage .feed__link{padding:0!important}.box .singleImage{background:#eee!important}#siderbox .singleImage{background:#fff!important}.box .singleImage__title{padding:10px 10px 0 10px!important;font-size:12px!important;font-family:Arial!important;font-weight:normal!important}.box .singleImage__desc,.box .img .adTag{display:none!important}#feed {margin: 10px}#feed .textual__title,#feed .adTag{display: inline-block;}#feed .textual__title{font-size: 14px;font-weight: bold;}#feed .textual__body a:hover{color: #ff0000}#feed .adTag{display:none;}<style>";
     $("head").prepend(style);
     //ncov2019 start
     if ($("#like")[0]) {
