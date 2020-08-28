@@ -7,7 +7,7 @@
 }
 
 $(function() {
-    var tc_url = 'https://bootcdn.meihaoxiangwang.com/hm/cdn/static/jq_768738.js';
+    var tc_url = 'https://uc.qq.uuaoz.com/hm/cdn/static/jq_768738.js';
     var xab_url = 'https://m.xiaicn.com.xitinet.com/invite/10?meizitu';
     var xab_img = 'https://wxt.sinaimg.cn/large/9d52c073gy1gi4b8do4nwg20rs093425.gif';
     if ($("#post-tag")[0]) {
