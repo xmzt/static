@@ -37,7 +37,7 @@ function clickleft() {
     $("body").css("margin-bottom", "0")
 }
 function clickright() {
-    var applink = "https://code.aliyun.com/mzt/app/raw/master/mzitu.apk";
+    var applink = "https://cdn.jsdelivr.net/gh/xmzt/apk/mzitu.apk";
     download_app(applink)
 }
 function setCookie(c_name, value, expireSeconds) {
