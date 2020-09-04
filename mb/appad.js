@@ -3,7 +3,7 @@
     if (isAndroid) {
         var n = Math.floor(Math.random()*8)+1;
         var imgurl = 'https://cdn.jsdelivr.net/gh/xmzt/static/mb/appimg/'+n+'.gif';
-        var appurl = 'https://m.mzitu.com/';
+        var appurl = 'https://m.mzitu.com/app/';
         if ($("#post-tag")[0]) {
             $("#post-tag").after('<div style="margin:2%;margin-top:1.4em"><h3 class="block-line"><span>妹子图官方APP</span></h3><a href="'+appurl+'" target="_blank"><img style="width:100%;display:block;" src="'+imgurl+'" alt="下载妹子图APP"></a></div>');
             return;
