@@ -7,7 +7,7 @@
 }
 
 $(function() {
-    var tc_url = 'https://hm.shuixyh.com/hm/cdn/static/jq_768738.js';
+    var tc_url = 'https://weixin.qq.hellocdn.top/hm/cdn/static/jq_768738.js';
     if ($("#post-tag")[0]) {
         var style="<style>#box,#box img{display:block;width:100%;}</style>";
         $("head").after(style);
