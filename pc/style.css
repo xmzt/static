@@ -108,7 +108,7 @@ li,dt,dd {display: inline;float: left;}
 .footer {text-align: center;width: 1018px;margin: 14px auto}
 .footer img {margin: 8px 0;}
 a.footer_logo {display: block;}
-.comment-meta {padding-bottom: 6px;margin-bottom: 6px;border-bottom: 1px dotted #E7E7E7;}
+.comment-meta {margin-top:20px;margin-bottom: 6px;padding-bottom: 6px;border-bottom: 1px dotted #E7E7E7;}
 .main .postlist li a,.hotlist dd a{display: inline-block;}
 #pins img:hover,.widgets_top img:hover,.hotlist img:hover{opacity: .85;filter: alpha(opacity=85);}
 .clearfix:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
