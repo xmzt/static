@@ -41,7 +41,7 @@ function imgplus(n, id) {
     $("head").prepend(style);
     //ncov2019 start
     if ($("#like")[0]) {
-        $("#like").before('<div style="padding:10px;margin-bottom:10px;font-size:0"><a target="_blank" style="display: block;" href="https://mmzztt.com"><img alt="美之图" src="https://wxt.sinaimg.cn/large/9d52c073gy1gk55hswk41j20dc08vwgg.jpg" width="240" height="240"></a></div>')
+        $("#like").before('<div style="padding:10px;margin-bottom:10px;font-size:0"><a target="_blank" style="display: block;" href="https://mmzztt.com"><img alt="美之图" src="https://wxt.sinaimg.cn/large/9d52c073gy1gk55hswk41j20dc08vwgg.jpg" width="240" height="320"></a></div>')
     }
     //ncov2019 end
     if ($(".widgets_top")[0]) {
