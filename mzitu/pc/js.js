@@ -29,7 +29,6 @@
       $('#widgets_fix').css('position', 'static');
     }
   });
-  mzt_square();
 });
 
 function showlike(sid) {
@@ -92,11 +91,12 @@ function views(id) {
   });
 }
 
-function mzt_square() {
+//mzt_square
+!(function() {
   if ($("#like")[0]) {
     $("#like").before('<div style="padding:10px;margin-bottom:10px;font-size:0"><a target="_blank" style="display: block;" href="https://mmzztt.com/"><img alt="美之图" src="https://wxt.sinaimg.cn/large/9d52c073gy1gk56e533k6j20dc08wjti.jpg" width="240" height="160"></a></div>')
     }
-}
+})();
 
 if (top != self) {
     top.location = self.location;
