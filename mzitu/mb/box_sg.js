@@ -21,7 +21,7 @@ function s_index(){
     $("body").prepend('<style type="text/css">.box{background: #fff; margin:2%;border-radius: 3px;padding: 2%;}.box a{font-size: 0;display: block;}.box img{width: 100%;height: auto;}.box div,.box iframe{max-width:100%}</style>');
     //360
     if (window.location.pathname == '/') {
-        $("article:eq(1)").after('<div class="box"><a target="_blank" href="https://www.360kuai.com/mob/subject/400?sign=360_6aa05217"><img alt="新型肺炎实时疫情追踪" src="https://wxt.sinaimg.cn/mw1024/9d52c073gy1gbi73cipwyj20k006zn2o.jpg" width="100%" height="auto"></a></div>');
+        $("article:eq(1)").after('<div class="box"><a target="_blank" href="https://www.360kuai.com/mob/subject/400?sign=360_6aa05217"><img alt="新型肺炎实时疫情追踪" src="https://tvax1.sinaimg.cn/mw1024/9d52c073gy1gbi73cipwyj20k006zn2o.jpg" width="100%" height="auto"></a></div>');
     }
     //
     var ids = ["1097885","1097886"];
