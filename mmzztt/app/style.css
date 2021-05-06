@@ -42,11 +42,11 @@ footer{position: fixed;left: 0;bottom: .3rem;right: 0;text-align: center;font-si
 .mask{display: none;position: fixed;width: 100%;height: 100%;background: #000;opacity: 0.6;left: 0;top: 0;z-index: 2}
 #downBox{display: none;position: fixed;top: 47%;left: 50%;z-index: 3;transform: translate(-50%,-50%);width: 360px;height: 380px;border-radius: 8px;background-color: #fff}
 #downBox p{font-size: 16px;color: #9b9b9b;text-align: center;margin-top: 29px;margin-bottom: 34px}
-.close{width: 16px;height: 16px;background: url("../images/close.png") no-repeat;float: right;margin: 15px 15px auto auto;cursor: pointer}
+.close{width: 16px;height: 16px;background: url("close.png") no-repeat;float: right;margin: 15px 15px auto auto;cursor: pointer}
 .qcode{width: 210px;height: 210px;margin: 66px auto auto}
 .qcode img{width: 100%;margin: 0;}
 
-@media (min-width: 767px){ 
+@media (min-width: 767px){
 	body{max-width: 10rem; margin: 0 auto;}
 	.down{max-width: 10rem;}
 	.list ul li{width: 32%;}
