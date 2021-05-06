@@ -37,6 +37,7 @@ img{display: block;}
 .down img{width: 100%;}
 footer{position: fixed;left: 0;bottom: .3rem;right: 0;text-align: center;font-size: 0.32rem; color: #bbb;}
 #code{opacity: 0;position: absolute;left: -9999px;}
+footer a{color: #666}
 
 /* 弹窗 */
 .mask{display: none;position: fixed;width: 100%;height: 100%;background: #000;opacity: 0.6;left: 0;top: 0;z-index: 2}
