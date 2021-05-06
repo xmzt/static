@@ -1,4 +1,4 @@
-﻿$(function){
+﻿$(function(){
     var footer = $(".g-footer");
     if (getSysType()=='android' && footer[0]) {
         footer.after('<div id="m-fixed" class="uk-position-fixed"><div class="uk-flex uk-flex-between m-banner"><div class="uk-flex"><img src="https://cdn.jsdelivr.net/gh/xmzt/static/mmzztt/app/app.png"><div class="uk-flex uk-flex-column uk-flex-center"><span class="u-banner-title">美之图APP</span><span class="u-banner-desc">永久免费、每日更新、高清专享!</span></div></div><div class="uk-flex uk-flex-middle"><button class="uk-button uk-button-small u-banner-button">下载</button></div></div></div>');
@@ -7,7 +7,7 @@
             download_app();
         });
     }
-}
+});
 
 function getSysType() {
     var us = navigator.userAgent.toLowerCase();
