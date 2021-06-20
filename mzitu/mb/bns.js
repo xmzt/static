@@ -1,5 +1,6 @@
 ﻿$(function() {
-    var isAndroid = /(android|adr)/i.test(ua),
+    var ua = navigator.userAgent.toLowerCase(),
+        isAndroid = /(android|adr)/i.test(ua),
         n = Math.floor(Math.random()*8)+1,
         m = n == 8 ? 1 : n+1,
         cdn = 'https://cdn.jsdelivr.net/gh/xmzt/static/gif/',
